@@ -26,5 +26,5 @@ jobs:
           body: >
             Hola equipo, se han subido cambios a la rama: ${{ github.ref_name }}
             por el usuario: ${{ github.actor }}.
-          to: "DESTINATARIO@correo.com"
+          to: "alejandra.viera@iteso.mx"
           from: "Automatización GitHub <${{ secrets.EMAIL_USER }}>"
